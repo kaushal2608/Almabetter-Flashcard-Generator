@@ -1,70 +1,93 @@
-# Getting Started with Create React App
 
-The  project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Almabetter-Flashcard-Generator
 
-## Available Scripts
+This is a frontend capston project given by the Almabetter which is Flashcard Generator
+## Deployment
 
-In the project directory, you can run:
+Click on the link to see my flashcard generator website
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  https://myflashcardgenerator.netlify.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Watch Explanation video on youtube 
+- [video link](https://youtu.be/3B4VM4rcRnk)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Run Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  git clone https://github.com/kaushal2608/Almabetter-Flashcard-Generator.git
+```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  npm run start
+```
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Tech Stack
+- Reactjs( React Router ),
+- Redux & Redux Toolkit,
+- TailwindCSS,
+- React-icons,
+- React Formik & Yup,
 
-### Analyzing the Bundle Size
+## About The Project (Flashcard )
+This project is created with mainly Reactjs , In this project mainly we have three pages
+```bash
+1) create Flashcard page 
+2) My Flashcard page 
+3) Flashcad Details page  with  share page 
+```
+- create fashcard page: In create Flashcard page we used a Formik for creating input boxes and for the validation we used Yup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- My Flashcard page: For the My flashcard page we saparately design My Flashcard UI component and did maping the UI and input data in My flashcard
 
-### Making a Progressive Web App
+- FlashcardDetails page : in the page we write a code for displaying Number of cards and details of cards and in the page we also created share popup slide with all social media Links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## How To Use
+1) Open flashcard generator will clicking deployment Link
 
-### Advanced Configuration
+2) Click on the "create New" link and fill up all the input boxes without any Errors and click on "create" button
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3) For the viewing Currently created flashcard click on "My flashcard" link this will show all flashcard you created recently
 
-### Deployment
+4) For the Viewing Details of flashcard click on "view card" button showes on the flashcard this will show the details of flashcard and number of cards with is's description and also we have "share" button to copy link with all social media icons(Links) working
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Features
 
-### `npm run build` fails to minify
+- Add More Input Box (Button)
+- Delete button (Button)
+- Edit Input box (Button)
+- View cards (Button)
+- Upload Image (Button)
+- Share (Copy Clipboard button)
+- Social Media Butoon's ( Working )
+- See all (Button)
+- Back Button
+- close button for closing share page
+## 🛠 Skills
+Javascript, HTML, CSS, Reactjs...
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+## Project Created With
+- [Arpan Waddewar](https://github.com/Arpanwaddewar)
